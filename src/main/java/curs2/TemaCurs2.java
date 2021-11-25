@@ -17,7 +17,7 @@ public class TemaCurs2 {
     @BeforeClass
     public void setup(){
 
-        System.setProperty("webdriver.chrome.driver", "D:\\autotest2\\cursSelenium\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\cursSelenium\\drivers\\chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.get("https://keybooks.ro/");
